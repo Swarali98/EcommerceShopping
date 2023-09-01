@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="182.727" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To validate user login and Amazon Website search functionality" name="User validates search, add filters, sort and wishlist functionality in Edge" time="181.709">
+<system-out><![CDATA[
+Given User search a specific product on search tab, row "7" column "0"......passed
+When User select 2 brands from checkbox.....................................passed
+And User select a category and price range..................................passed
+And User select a Bag and adds to wishlist..................................passed
+And User navigates to 1st tab and clears the search field...................passed
+When User search a specific product on search tab, row "8" column "0".......passed
+And User sorts the search results and filters according to ratings..........passed
+Then User select a wallet and add to wishlist...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
